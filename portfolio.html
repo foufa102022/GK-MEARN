@@ -2,6 +2,8 @@
 <html lang="fr">
 
 <head>
+  <link rel="stylesheet" href="style.css">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>portfolio</title>
@@ -10,59 +12,65 @@
 <body>
   <header>
     <nav id="nav">
-      <ul>
-        <li>
-          <a href="#home">Home </a>
-
-
-        </li>
-        <li><a href="#About">About </a></li>
-        <li><a href="#contact">Contact </a></li>
-
-      </ul>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
+
   <hr>
   <h3>About me</h3>
   <section id="About">
     <div>
-     
-      <p>Passionnée avec une maîtrise récemment obtenue en DevOps et Cloud 
-        Informatique. Personne énergique possédant des compétences exceptionnelles 
-        en matière de pensée critique, d'analyse et interpersonnelle ainsi qu'une solide 
-        maîtrise des pratiques DevOps. Recherche actuellement un poste de niveau 
+
+      <p>Passionnée avec une maîtrise récemment obtenue en DevOps et Cloud
+        Informatique. Personne énergique possédant des compétences exceptionnelles
+        en matière de pensée critique, d'analyse et interpersonnelle ainsi qu'une solide
+        maîtrise des pratiques DevOps. Recherche actuellement un poste de niveau
         débutant pour acquérir une expérience précieuse. </p>
 
     </div>
     <div>
-      <video  src="test selenium.mp4" type="video/mp4" controls width="500px" height="500"  style="margin-left: 30%;" ></video>
+      <video src="test selenium.mp4" type="video/mp4" controls width="500px" height="500"
+        style="margin-left: 30%;"></video>
     </div>
   </section>
   <br><br><br><br><br><br>
- 
-  <section id="home">
-    <div>
-      <h1> Welcome to my profile</h1> <hr>
+
+  <section>
+    <div id="style1">
+      <h1> Welcome to my profile</h1>
+      <hr>
       <h5> Addresse: Tunis, Tozeur 2200</h5>
       <h5> Tel: +21652016423 </h5>
       <h5> email: chetouiiftikhar@gmail.com</h5>
-     
+
     </div>
   </section>
-  <h3>Contact me</h3>
+  <h1>Contact me</h1>
   <section id="contact">
-   <fieldset><legend> remplir ce formulaire</legend>
-    <form action="#nav"> 
-      <label >Nom</label>
-      <input type="text"required>
-      <label >prénom</label>
-      <input type="text" required>
-      <label >email</label>
-      <input type="email" required> 
-      <label >Tel</label>
-      <input type="number">
-      <input type="submit" value="envoyer">
-    </form></fieldset>
+    <fieldset>
+      <legend> remplir ce formulaire</legend>
+      <form action="#nav">
+        <label>Nom</label>
+        <input type="text" required>
+        <label>prénom</label>
+        <input type="text" required>
+        <label>email</label>
+        <input type="email" required>
+        <label>Tel</label>
+        <input type="number">
+        <select name="pays" id="">
+          <option value="">Tozeur</option>
+          <option value="">Nefta</option>
+          <option value="">Deguech</option>
+        </select>
+
+        <input type="submit" value="envoyer">
+      </form>
+    </fieldset>
   </section>
   <hr>
   <footer style="text-align: center;"> 2024-2025</footer>

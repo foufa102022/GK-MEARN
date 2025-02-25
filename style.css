@@ -1,0 +1,48 @@
+#style1{
+    color: rgb(255, 0, 132);
+    background-color: aquamarine;
+}
+#About{
+    text-align: center;
+
+}
+/* appliquer le style au h1 dans le div seulement */
+/* style1 est l'id de div */
+#style1 h1{
+    background-color: blue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Ajoute de l'espace uniforme entre les éléments */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color:blanchedalmond;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px; /* Coins arrondis */
+}
+
+li:hover {
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: white; /* Couleur du texte */
+}
+
+li:hover a {
+    color: black; /* Change la couleur du texte au survol */
+}
+
